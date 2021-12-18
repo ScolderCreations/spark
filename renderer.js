@@ -4,5 +4,5 @@
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
 // process.
-const view1 = getElementById("view1")
+const view1 = document.getElementById("view1")
 view1.src = "file://" + __dirname + "/src/current/index.html"
