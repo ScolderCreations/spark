@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "spark",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A web browser, I guess.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -14,8 +14,8 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "ScolderCreations",
+  "license": "UNLICENSE",
   "devDependencies": {
     "electron": "^16.0.5"
   }
