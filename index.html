@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <link href="./styles.css" rel="stylesheet">
     <title>Spark</title>
   </head>
   <input type="text" id="search" class="center roundborder" placeholder="Enter a URL here..."/>
-  <webview id="view1" src=""></browserView>
+  <div id="fill" style="height: 100%;"><webview id="view1" class="view" src="https://google.com"></browserView></div>
   <script src="./renderer.js"></script>
 </html>
