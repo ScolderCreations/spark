@@ -1,3 +1,12 @@
 /* styles.css */
-
+#search {
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    width: 70%;
+    align-self: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /* Add styles here to customize the appearance of your app */
