@@ -1,7 +1,10 @@
 /* styles.css */
+body {
+    background-color: black;
+}
 #search {
-    color: black;
-    background-color: antiquewhite;
+    color: white;
+    background-color: rgb(56, 56, 56);
     border-radius: 7px;
     border-width: 2px;
     width: 70%;
@@ -9,9 +12,15 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: text;
+    -webkit-border-image: none;
+    border-image: none;
+    border-style: none;
+    text-emphasis-color: black;
+    text-shadow: 0px;
 }
 .view {
-    position: absolute; top: 50px; left: 0; right: 0; bottom: 0; 
+    position: absolute; top: 40px; left: 0; right: 0; bottom: 0; 
     scroll-behavior: smooth;
 }
 /* Add styles here to customize the appearance of your app */
