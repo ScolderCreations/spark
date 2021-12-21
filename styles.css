@@ -2,6 +2,11 @@
 body {
     background-color: black;
 }
+#topbar {
+    justify-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
 #search {
     color: white;
     background-color: rgb(56, 56, 56);
@@ -18,20 +23,29 @@ body {
     border-style: none;
     text-emphasis-color: black;
     text-shadow: 0px;
+    height: 33px;
+    position: absolute;
+    top: 10px; left: 2px; right: 0; bottom: 0;
+}
+#search:focus {
+    border-color: dodgerblue;
 }
 #reload {
     cursor: pointer;
-    height: 100%;
+    height: 33px;
     color: white;
     border-radius: 7px;
     background-color: rgb(56, 56, 56);
-    width: 14px;
-    background-image: "./src/reload.svg";
-    padding-left: 1%;
-    padding-right: 1%;
+    width: 33px;
+    background-image: url("./src/reload.svg");
+    justify-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 10px; left: 75%; right: 0; bottom: 0; 
 }
 .view {
-    position: absolute; top: 40px; left: 0; right: 0; bottom: 0; 
+    position: absolute; top: 50px; left: 0; right: 0; bottom: 0; 
     scroll-behavior: smooth;
 }
 /* Add styles here to customize the appearance of your app */
