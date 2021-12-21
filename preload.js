@@ -1,22 +1,18 @@
 // All of the Node.js APIs are available in the preload process.
 // It has the same sandbox as a Chrome extension.
 /*
-window.addEventListener('DOMContentLoaded', () => {
 var view1 = document.getElementById("view1");
 var box = document.getElementById("search");
-box.value = ""
-view1.loadURL("file://" + __dirname + "/src/default.html");
+
+view1.src = 'https://scoldercreations.github.io/home';
 box.addEventListener("keydown", function (e) {
     if (e.keyCode === 13) {
       box.blur();
       if (box.value == "about:home") {
-        view1.loadURL("file://" + __dirname + "/src/default.html");
+        view1.src = 'https://scoldercreations.github.io/home';
       } else {
-        view1.loadURL(String(box.value));
+        view1.src = String(box.value);
       }
     }
   });
-
-
-})
-*/
+  */
