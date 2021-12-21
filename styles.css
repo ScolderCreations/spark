@@ -19,6 +19,17 @@ body {
     text-emphasis-color: black;
     text-shadow: 0px;
 }
+#reload {
+    cursor: pointer;
+    height: 100%;
+    color: white;
+    border-radius: 7px;
+    background-color: rgb(56, 56, 56);
+    width: 14px;
+    background-image: "./src/reload.svg";
+    padding-left: 1%;
+    padding-right: 1%;
+}
 .view {
     position: absolute; top: 40px; left: 0; right: 0; bottom: 0; 
     scroll-behavior: smooth;

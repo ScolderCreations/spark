@@ -5,7 +5,7 @@
     <link href="./styles.css" rel="stylesheet">
     <title>Spark</title>
   </head>
-  <input type="text" id="search" class="center roundborder" placeholder="Enter a URL here..."/>
+  <div id=topbar><input type="text" id="search" class="center roundborder" placeholder="Enter a URL here..."/><button id=reload onclick="reloadView()"></button></div>
   <div id="fill" style="height: 100%;"><webview id="view1" class="view"></webview></div>
 </html>
 <script src="./renderer.js"></script>
