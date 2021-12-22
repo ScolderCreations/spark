@@ -23,9 +23,9 @@ function createWindow () {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
-  const reloadKeybind = globalShortcut.register('CommandOrControl+R', () => {
+  /* const reloadKeybind = globalShortcut.register('CommandOrControl+R', () => {
     reloadView()
-  })
+  }) */
   createWindow()
 
   app.on('activate', function () {
