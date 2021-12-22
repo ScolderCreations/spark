@@ -1,5 +1,6 @@
 var view1 = document.getElementById("view1");
 var box = document.getElementById("search");
+var windowTitle = document.getElementById("title");
 
 function openpage(url, view) {
   var final = url
@@ -27,4 +28,7 @@ box.addEventListener("keydown", function (e) {
     box.blur();
     openpage(box.value, view1);
   }
+});
+view1.addEventListener("did-stop-loading", function () {
+  windowTitle.innerText = "Spark - " + view1.getTitle();
 });
