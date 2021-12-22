@@ -38,7 +38,7 @@ body {
     background-color: rgb(56, 56, 56);
     width: 33px;
     background-image: url("./src/reload.svg");
-    background-image-repeat: none;
+    background-repeat: no-repeat;
     justify-items: center;
     padding-left: 10px;
     padding-right: 10px;
