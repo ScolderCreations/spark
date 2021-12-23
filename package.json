@@ -4,8 +4,8 @@
   "description": "A web browser, I guess.",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "postinstall": "electron-forge start"
+    "start": "electron-forge start",
+    "postinstall": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
