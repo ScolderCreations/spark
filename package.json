@@ -20,5 +20,8 @@
   "devDependencies": {
     "electron": "^16.0.5",
     "electron-forge": "*"
+  },
+  "dependencies": {
+    "electron-prebuilt-compile": "^8.2.0"
   }
 }
