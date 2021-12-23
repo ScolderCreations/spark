@@ -20,7 +20,7 @@
   "devDependencies": {
     "electron": "^16.0.5",
     "electron-forge": "*",
-    "electron-prebuilt-compile": "^8.2.0"
+    "electron-prebuilt-compile": "8.2.0"
   },
   "dependencies": {
     
