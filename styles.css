@@ -30,23 +30,36 @@ body {
 #search:focus {
     border-color: dodgerblue;
 }
-#reload {
+.ui {
     cursor: pointer;
     height: 33px;
-    color: white;
+    color: rgba(255, 255, 255, 0);
     border-radius: 7px;
-    background-color: rgb(56, 56, 56);
+    background-color: rgba(56, 56, 56, 0);
     width: 33px;
-    background-image: url("./src/reload.svg");
     background-repeat: no-repeat;
     justify-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    position: absolute;
-    top: 10px; left: 72%; right: 0; bottom: 0; 
+    display: inline-block;
+    border: none;
 }
+.ui:focus {
+    background-color: rgba(56, 56, 56, 0.600);
+    border: none;
+    outline: none;
+    animation-name: pressed;
+}
+#reload {
+    background-image: url("./src/reload.svg");
+    position: absolute;
+    top: 10px; left: 72%; right: 0; bottom: 0; }
 .view {
     position: absolute; top: 50px; left: 0; right: 0; bottom: 0; 
     scroll-behavior: smooth;
 }
-/* Add styles here to customize the appearance of your app */
+@keyframes pressed {
+    20% {background-color: rgba(56, 56, 56, 0.300)}
+    40% {background-color: rgba(56, 56, 56, 0.400)}
+    60% {background-color: rgba(56, 56, 56, 0.500)}
+}

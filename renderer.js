@@ -30,5 +30,9 @@ box.addEventListener("keydown", function (e) {
   }
 });
 view1.addEventListener("did-stop-loading", function () {
-  windowTitle.innerText = "Spark - " + view1.getTitle();
+  if (view1.getTitle()) {
+    windowTitle.innerText = "Spark - " + view1.getTitle();
+  } else {
+    windowTitle.innerText = "Spark"
+  }
 });
