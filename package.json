@@ -23,6 +23,6 @@
     "electron-prebuilt-compile": "^8.2.0",
     "constantinople": ">=4.0.1",
     "tar": ">=6.1.11",
-    "yargs-parser": ">=13.1.2"
+    "yargs-parser": ">=21.0.0"
   }
 }
