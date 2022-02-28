@@ -22,6 +22,6 @@
     "electron-forge": "*",
     "constantinople": "latest",
     "tar": ">=6.1.11",
-    "yargs-parser": ">=21.0.0"
+    "yargs-parser": ">=21.0.1"
   }
 }
