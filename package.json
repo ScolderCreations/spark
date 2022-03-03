@@ -24,6 +24,7 @@
     "tar": ">=6.1.11",
     "yargs-parser": ">=21.0.1",
     "xmldom": "latest",
-    "plist": "^3.0.4"
+    "plist": "^3.0.4",
+    "mime": ">=1.4.1"
   }
 }
