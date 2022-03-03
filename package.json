@@ -22,6 +22,7 @@
     "electron-forge": "*",
     "constantinople": "latest",
     "tar": ">=6.1.11",
-    "yargs-parser": ">=21.0.1"
+    "yargs-parser": ">=21.0.1",
+    "xmldom": "latest"
   }
 }
