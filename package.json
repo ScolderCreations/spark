@@ -25,6 +25,7 @@
     "yargs-parser": ">=21.0.1",
     "xmldom": "latest",
     "plist": "^3.0.4",
-    "mime": ">=1.4.1"
+    "mime": ">=1.4.1",
+    "semver": ">=4.3.2"
   }
 }
