@@ -3,23 +3,18 @@
   "version": "1.0.0",
   "description": "A web browser, I guess.",
   "main": "main.js",
-  "scripts": {
-    "start": "electron-forge start",
-    "postinstall": "electron ."
-  },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/scoldercreations/spark",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
+    "spark",
+    "help",
+    "browser",
+    "wanted",
     "demo"
   ],
   "author": "ScolderCreations",
   "license": "UNLICENSE",
   "devDependencies": {
     "electron": "^17.1.2",
-    "electron-forge": "*",
     "constantinople": "latest",
     "tar": ">=6.1.11",
     "yargs-parser": ">=21.0.1",
