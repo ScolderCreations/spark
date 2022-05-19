@@ -11,7 +11,7 @@ function openpage(url, view) {
     box.value = "https://duckduckgo.com/?q=" + encodeURIComponent(url);
     final = box.value
   }
-  view.src = String(final);
+  view.src = encodeURIComponent(final);
   //view1.loadURL(String(box.value));
 }
 
