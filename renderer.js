@@ -20,7 +20,7 @@ function reloadView() {
 }
 
 view1.src = "https://scoldercreations.github.io/home";
-view1.addEventListener("dom-ready", function () {
+document.addEventListener("load", function () {
   //view1.loadURL('https://scoldercreations.github.io/home');
 });
 box.addEventListener("keydown", function (e) {
