@@ -16,7 +16,7 @@
   "devDependencies": {
     "electron": "^21.3.1",
     "constantinople": "latest",
-    "tar": ">=6.1.11",
+    "tar": ">=6.1.12",
     "yargs-parser": ">=21.1.1",
     "xmldom": "latest",
     "plist": "^3.0.6",
