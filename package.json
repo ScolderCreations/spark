@@ -14,7 +14,7 @@
   "author": "ScolderCreations",
   "license": "UNLICENSE",
   "devDependencies": {
-    "electron": "^25.4.0",
+    "electron": "^26.2.3",
     "constantinople": "latest",
     "tar": ">=6.1.13",
     "yargs-parser": ">=21.1.1",
