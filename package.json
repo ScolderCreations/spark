@@ -21,6 +21,6 @@
     "xmldom": "latest",
     "plist": "^3.1.0",
     "mime": ">=4.0.1",
-    "semver": ">=7.6.0"
+    "semver": ">=7.6.2"
   }
 }
